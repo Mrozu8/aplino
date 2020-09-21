@@ -1,0 +1,1065 @@
+#app{
+  min-height: 100%;
+}
+body{
+  background-color: #eee;
+}
+
+.admin-custom-container{
+  margin-left: 350px;
+  margin-right: 100px;
+}
+
+//==================================== Left sidebar ===================================
+
+
+.admin-left-sidebar{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #033754;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 4px 0px 4px #8080805e;
+
+  .header-sidebar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: #e6e6e6;
+    font-size: 22px;
+  }
+
+  .sidebar-hr{
+    border: 1px solid #bfbfbf96;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .links-container{
+    margin-top: 50px;
+
+    a{
+      color: #f5f5f5;
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      transition: 0.4s;
+
+      p{
+        font-size: 18px;
+        margin-left: 30px;
+      }
+    }
+
+    a:hover{
+      background-color: rgba(33, 129, 199, 0.44);
+      color: white;
+    }
+  }
+}
+
+//================================ Profile Company ==========================================
+
+
+
+.admin-statistic-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+    height: auto;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+
+    }
+  }
+
+}
+
+
+
+//============================ Inside footer =============================
+
+
+.inside-footer{
+
+}
+
+
+//=========================== Users page =====================================
+
+
+.admin-user-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+    height: auto;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+      thead tr th{
+        border-bottom: 3px solid #80808036;
+        border-top: none;
+        padding: 1em;
+      }
+
+      th.th-1{
+        width: 5%;
+      }
+
+      th.th-2{
+        width: 40%;
+      }
+
+      th.th-3{
+        width: 20%;
+      }
+
+      th.th-4{
+        width: 15%;
+      }
+
+      th.th-5{
+        width: 10%;
+      }
+
+
+      tbody tr td{
+        padding: 1.3em;
+
+        a.edit-table{
+          background: transparent;
+          color: #007cffad;
+          height: 0px;
+
+          i{
+            font-size: 20px;
+          }
+        }
+
+        a.delete-table{
+          background: transparent;
+          color: #ff0000ad;
+          height: 0px;
+
+          i{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//=============================== single user profile ==================================
+
+
+.company-card{
+  height: 400px;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+
+
+  .company-header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .company-content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+      .ui.grid.stackable.flex-grid{
+        display: flex;
+        align-items: flex-end;
+
+
+        span.company-name{
+          font-size: 40px;
+          font-weight: 800;
+        }
+
+        span.company-address{
+
+          font-size: 20px;
+        }
+      }
+
+    }
+  }
+
+}
+
+
+
+.notification-card{
+  height: 400px;
+  width: 100%;
+  margin-top: 90px;
+  padding-left: 30px;
+
+
+  .notification-header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .notification-content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+      .ui.grid.stackable.flex-grid{
+        display: flex;
+        align-items: flex-end;
+
+
+        .notification{
+          font-size: 18px;
+          margin-top: -12px;
+        }
+
+        .notification-q{
+          height: 45px;
+          width: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #ec28a9b3;
+          border-radius: 0.5em;
+          box-shadow: 3px 1px 5px 2px #8080802b;
+          color: white;
+          transition: 0.4s;
+
+        }
+
+        .notification-q:hover{
+          box-shadow: 4px 5px 10px rgba(82, 82, 82, 0.17);
+          background-color: #45c2fb;
+        }
+
+        .notification-status-company{
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: green;
+          font-size: 22px;
+        }
+
+        .custom-divider{
+          display: flex;
+          justify-content: center;
+
+          .divider-vert{
+            border-left: 1px solid #80808047;
+            height: 80px;
+            margin-top: -20px;
+
+          }
+        }
+
+
+        .notification-data-status-company{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: gray;
+          font-size: 22px;
+        }
+      }
+
+    }
+  }
+
+}
+
+
+.inbox-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-bottom: 100px;
+
+
+
+  .inbox-header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .inbox-content{
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+
+
+      .button.update{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button{
+          background-color: #44c1fa;
+          box-shadow: 3px 1px 10px #80808066;
+
+          i{
+            color: white;
+          }
+        }
+
+        button:hover{
+          background-color: #44c1fa;
+          box-shadow: 4px 2px 10px #80808066;
+        }
+      }
+
+      .inbox-fields{
+
+        .field{
+          padding-top: 20px;
+
+          .custom-input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1.5px solid #bdbdbd;
+            border-radius: 0px;
+          }
+        }
+
+        .button.submit{
+          display: flex;
+          justify-content: flex-end;
+
+          button{
+            border-radius: 0px;
+            box-shadow: 2px 2px 10px #808080bf;
+            background-color: #44acf8;
+            color: white;
+          }
+
+          button:hover{
+            box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.85);
+            background-color: #45befa;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+//================================== admin archives =======================================
+
+
+.admin-archives-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .container-card{
+      padding: 2em;
+      padding-top: 90px;
+
+      thead tr th{
+        border-bottom: 3px solid #80808036;
+        border-top: none;
+        padding: 1em;
+      }
+
+      th.th-1{
+        width: 5%;
+      }
+
+      th.th-2{
+        width: 7%;
+      }
+
+      th.th-3{
+        width: 40%;
+      }
+
+      th.th-4{
+        width: 15%;
+      }
+      th.th-5{
+        width: 12%;
+      }
+
+      th.th-6{
+        width: 13%;
+      }
+
+      th.th-7{
+        width: 10%;
+      }
+
+
+      tbody tr td{
+        padding: 1.3em;
+
+        form button.add-xml{
+          background: transparent;
+          color: #007cffad;
+          height: 0px;
+
+          i{
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//=============================== Inbox ============================================
+
+
+.admin-inbox-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .container-card{
+      padding: 2em;
+      padding-top: 90px;
+
+      thead tr th{
+        border-bottom: 3px solid #80808036;
+        border-top: none;
+        padding: 1em;
+      }
+
+      th.th-1{
+        width: 5%;
+      }
+
+      th.th-2{
+        width: 5%;
+      }
+
+      th.th-3{
+        width: 48%;
+      }
+
+      th.th-4{
+        width: 10%;
+      }
+
+      tbody tr td{
+        padding: 1.3em;
+
+
+        a.single-inbox{
+
+          p.topic{
+            font-size: 16px;
+            font-weight: 600;
+            color: #428ef5bf;
+
+            i.custom{
+              font-size: 22px;
+              color: #bb0000bd;
+            }
+          }
+        }
+
+        p.topic{
+          font-size: 16px;
+          font-weight: 600;
+          color: black;
+
+        }
+
+        p.small-content{
+          color: gray;
+          font-size: 14px;
+        }
+      }
+
+      tbody tr:hover{
+        background-color: rgba(168, 168, 168, 0.08);
+      }
+    }
+  }
+}
+
+
+.company-inbox-questions{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .container-card{
+      padding: 2em;
+      padding-top: 90px;
+
+      .ui.accordion{
+        .title{
+          font-size: 18px;
+          font-weight: 700;
+          color: #808080b3;
+        }
+        .content{
+          padding-top: 2.5em;
+          box-shadow: none;
+
+          p{
+            color: #808080;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+
+
+
+.company-inbox-form{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .container-card{
+      padding: 2em;
+      padding-top: 90px;
+
+      .inbox-fields{
+
+        .field{
+          padding-bottom: 20px;
+
+          .custom-input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1.5px solid #bdbdbd;
+            border-radius: 0px;
+          }
+        }
+
+        .button.submit{
+          display: flex;
+          justify-content: flex-end;
+
+          button{
+            border-radius: 0px;
+            box-shadow: 2px 2px 10px #808080bf;
+            background-color: #44acf8;
+            color: white;
+          }
+
+          button:hover{
+            box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.85);
+            background-color: #45befa;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+//========================================= single inbox ===========================================
+
+
+
+
+
+.admin-single-inbox-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .container-card{
+      padding: 2em;
+      padding-top: 90px;
+
+      .topic{
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .content-thread{
+        padding-top: 20px;
+        color: gray;
+      }
+
+      hr.topic{
+        border-top:2px solid #80808052;
+        padding-bottom: 20px;
+        width: 100%;
+      }
+
+      .thread-form{
+        padding-top: 60px;
+
+        label{
+          padding-bottom: 20px;
+        }
+
+        .custom-input{
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1.5px solid #bdbdbd;
+          border-radius: 0px;
+        }
+
+        .button.submit{
+          display: flex;
+          justify-content: flex-end;
+
+          button{
+            border-radius: 0px;
+            box-shadow: 2px 2px 10px #808080bf;
+            background-color: #44acf8;
+            color: white;
+          }
+
+          button:hover{
+            box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.85);
+            background-color: #45befa;
+          }
+        }
+
+      }
+
+
+    }
+  }
+}
+
+//=================================== settings =============================================
+
+
+.admin-settings-card{
+  height: 400px;
+  width: 100%;
+  margin-top: 90px;
+  padding-right: 30px;
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+
+    }
+  }
+
+}
+
+
+
+.password-card{
+  height: auto;
+  width: 100%;
+  margin-top: 90px;
+  padding-left: 30px;
+
+
+  .header{
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 10;
+    background: linear-gradient(40deg,#45d2fc,#4285f4);
+    position: relative;
+    border-radius: 0.5em;
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+
+    h2{
+      font-size: 22px;
+      color: white;
+    }
+  }
+
+  .content{
+
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 1px 10px #80808087;
+    background-color: white;
+    z-index: 1;
+    margin-top: -30px;
+
+
+    .card-container{
+      padding: 2em;
+      padding-top: 80px;
+
+      .ui.grid.stackable.flex-grid{
+        display: flex;
+        align-items: flex-end;
+
+
+        .custom-input{
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          border-bottom: 1.5px solid #bdbdbd;
+          border-radius: 0px;
+        }
+
+        .button.submit.group{
+          padding-top: 30px;
+          display: flex;
+          justify-content: flex-end;
+          width: 100%;
+
+
+          button.ui.save.button{
+            background: #53cb57;
+            box-shadow: 3px 2px 10px #90909047;
+            margin-right: 15px;
+            width: 140px;
+            height: 50px;
+            border-radius: 0em;
+
+            i{
+              font-size: 18px;
+            }
+          }
+
+          button.ui.save.button:hover{
+            background: rgba(83, 203, 87, 0.9);
+            box-shadow: 3px 2px 10px rgba(144, 144, 144, 0.41);
+            transition: 0.4s;
+          }
+        }
+
+
+      }
+
+    }
+  }
+
+}
